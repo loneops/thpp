@@ -33,9 +33,9 @@ INCLUDE_DIRECTORIES(
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
-ADD_SUBDIRECTORY("gtest-1.7.0")
+ADD_SUBDIRECTORY("googletest-release-1.7.0")
 INCLUDE_DIRECTORIES(
-  "${CMAKE_CURRENT_SOURCE_DIR}/gtest-1.7.0/include"
+  "${CMAKE_CURRENT_SOURCE_DIR}/googletest-release-1.7.0/include"
 )
 
 SET(src
